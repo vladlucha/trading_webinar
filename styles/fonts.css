@@ -1,0 +1,29 @@
+@font-face {
+    font-family: SF-Black;
+    src: url("fonts/SF-Pro-Display-Black.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Bold;
+    src: url("fonts/SF-Pro-Display-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Heavy;
+    src: url("fonts/SF-Pro-Display-Heavy.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Medium;
+    src: url("fonts/SF-Pro-Display-Medium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-Regular;
+    src: url("fonts/SF-Pro-Display-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: SF-RegularItalic;
+    src: url("fonts/SF-Pro-Display-RegularItalic.otf") format("opentype");
+}
