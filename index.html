@@ -3,20 +3,300 @@
   <head>
     <!--seo-->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
 
     <!--styles-->
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/grid.css">
+    <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="stylesheet" href="styles/slick.css">
+
+  <body>
+    <header>
+      <div class="container">
+        <nav id="navigation" class="row">
+          <div class="col-lg-1">
+            <a href="#section1" class="logo"></a> <a aria-label="mobile menu" class="nav-toggle"> <span></span> <span></span> <span></span> </a>
+          </div>
+          <div class="col-lg-11">
+            <ul class="menu-left">
+              <li><a href="#section2">О вебинаре</a></li>
+              <li><a href="#section3">Для кого</a></li>
+              <li><a href="#section5">План</a></li>
+              <li><a href="#section7">Об авторе</a></li>
+              <li><button onclick="focusMethod()">Записаться</button></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div id='section1'>
+      <div class="bg1">
+        <div class="container">
+          <div class="row vertical-align">
+            <div class="info col-xs-12 col-lg-4">
+              <h1>Скальпинг. <br> Начало. </h1>
+              <h4>Вебинар начинается 29 апреля  <br> в 12:00 и 19:00 по МСК</h4>
+              <button onclick="focusMethod()">ЗАписаться на тренинг</button>
+            </div>
+            <div class="video col-xs-12 col-lg-8">
+              <div class="player">
+                <iframe width="100%" height="100%" border-radius='16px' src="https://www.youtube.com/embed/uXyy7lgDj9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='section2'>
+      <div class="container">
+        <div class="row vertical-align">
+          <div class="img col-lg-6 d-none d-sm-block"></div>
+          <div class="info offset-lg-1 col-lg-5 col-xs-12">
+            <h2>О Вебинаре</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+            <button onclick="focusMethod()">Записаться сейчас</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="line"></div>
+    </div>
+
+    <div id='section3'>
+      <div class="dots d-none d-sm-block"></div>
+      <div class="container">
+        <div class="title col-lg-8 offset-lg-2">
+          <h2>Для кого этот курс?</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="item col-lg-4">
+              <div class="row align-item">
+                <div class="icon icon1"></div>
+                <div class="itemTitle">Для новичков</div>
+              </div>
+              <div class="text">Если вы только начали интересоваться торговлей акциями или валютой и никаких действий еще не совершали, то на данном мастер-классе вы получите пошаговые шаги к действию. Я отвечу на все ваши вопросы и после вебинара вы сможете определиться хотите вы развиваться в данной теме или нет.</div>
+            </div>
+            <div class="item col-lg-4">
+              <div class="row align-item">
+                <div class="icon icon2"></div>
+                <div class="itemTitle">Для профессионалов</div>
+              </div>
+              <div class="text">Если вы давно торгуете на бирже, но никак не найдете свою стратегию. Торгуете хаотично и нет стабильности. Приходите на мой мастер-класс, там мы обсудим стратегии, которые я даю на обучении, рассмотрим сделки моих учеников. И вы сможете понять что можно улучшить в своей торговле, чтобы повысить эффективность сделок.</div>
+            </div>
+            <div class="item col-lg-4">
+              <div class="row align-item">
+                <div class="icon icon3"></div>
+                <div class="itemTitle">Торговля валютой</div>
+              </div>
+              <div class="text">Если вы не равнодушны к колебаниям курса доллара или евро, и хотите научится зарабатывать на росте или падении валют. То на данном мастер-классе вы сможете разобраться со всеми нюансами торговли валютой. Причем мы рассмотрим варианты покупки валюты на разных площадках, чтобы вы полностью понимали возможности каждого инструмента, будь это валютная пара или фьючерс.</div>
+            </div>
+          </div>
+          <div class="img-3 d-none d-sm-block"></div>
+          <div class="row align-item">
+            <div class="item col-lg-4">
+              <div class="row align-item">
+                <div class="icon icon4"></div>
+                <div class="itemTitle">Доход выше банковского депозита</div>
+              </div>
+              <div class="text">Если вы хотите, чтобы деньги работали на вас и получать при этом доход выше банковского депозита. Приходите на данный вебинар и узнаете варианты инвестирования гораздо доходнее и надежнее банковского депозита.</div>
+            </div>
+            <div class="item col-lg-6">
+              <div class="row align-item">
+                <div class="icon icon5"></div>
+                <div class="itemTitle">Помощь наставника, защита от потерь</div>
+              </div>
+              <div class="text">Когда начинаешь работать на бирже, то постоянно сталкиваешься с нехваткой поддержки специалиста. Торгуя на бирже мы имеем дело с деньгами, поэтому здесь важна особенно на первых порах быстрая и грамотная поддержка более опытного трейдера, наставника. Порой в сложной ситуации впадаешь в панику и в попытках дозвонится до брокера, теряешь время и деньги. На мастер классе у вас будет возможность присоединиться к моей команде трейдеров и получить мою личную поддержку на протяжении всего обучения.</div>
+            </div>
+          </div>
+        <div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+    <div class="gray-bg">
+
+
+
+    <div class="container">
+      <div class="line"></div>
+    </div>
+
+    <div id='section5'>
+      <div class="container">
+      <div class="title col-lg-8 offset-lg-2">
+        <h2>План тренинга</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+      </div>
+
+        <div class="row">
+          <div class="item col-lg-4">
+            <div class="arrow-right d-none d-sm-block"></div>
+            <div class="circle">
+              <div class="number about-1"></div>
+            </div>
+            <div class="itemTitle">Наставничество и доведение до результатов </div>
+            <div class="text">У студента всегда будет возможность обсудить моменты, которые у него не получаются.</div>
+          </div>
+          <div class="item col-lg-4">
+            <div class="arrow-right d-none d-sm-block"></div>
+            <div class="circle">
+              <div class="number about-2"></div>
+            </div>
+            <div class="itemTitle">Основы биржевой торговли</div>
+            <div class="text">Виды инструментов, преимущества и недостатки каждого из них, просмотр графиков, сравнение инструментов на практике, риски и доходности</div>
+          </div>
+          <div class="item col-lg-4">
+            <div class="arrow-down d-none d-sm-block"></div>
+            <div class="circle ">
+              <div class="number about-3"></div>
+            </div>
+            <div class="itemTitle">Что такое срочный рынок</div>
+            <div class="text">Преимущества торговли на срочном рынке, практический разбор таблиц в программе</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item col-lg-4">
+            <div class="arrow-down d-none d-sm-block"></div>
+            <div class="arrow-left d-none d-sm-block"></div>
+            <div class="circle ">
+              <div class="number about-4"></div>
+            </div>
+            <div class="itemTitle">Программа обучения</div>
+            <div class="text">Стоимость, дата начала обучения, структура уроков, длительность прохождения курса</div>
+          </div>
+          <div class="item col-lg-4">
+            <div class="arrow-left d-none d-sm-block"></div>
+            <div class="circle ">
+              <div class="number about-5"></div>
+            </div>
+            <div class="itemTitle">С чего начать? Подготовка к обучению</div>
+            <div class="text">Как открыть счет, какой выбрать тариф, как скачать программу квик, какие настройки программы подготовить перед обучением </div>
+          </div>
+          <div class="item col-lg-4">
+            <div class="circle ">
+              <div class="number about-6"></div>
+            </div>
+            <div class="itemTitle">Стили торговли</div>
+            <div class="text">Что такое скальпинг, кому подходит данный стиль торговли, практические примеры стратегий в программе квик</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item col-lg-4">
+            <div class="circle ">
+              <div class="number about-7"></div>
+            </div>
+            <div class="itemTitle">Наставничество и доведение до результатов </div>
+          </div>
+          <div class="offset-lg-1 col-lg-7 offset-xs-0 action">
+            <div class="row">
+              <div class="info">Присоединяйтесь к нам уже сейчас!</div>
+              <button>Записаться</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="section7">
+    <div class="container">
+      <div class="row">
+        <div class="info col-lg-5">
+          <h2>Об авторе</h2>
+          <div class="text">
+            <p>Друзья, всем кому интересна тема инвестирования, торговли на бирже. Кто хочет познакомится с новой очень интересной и доходной профессией трейдера приглашаю на мой авторский  мастер-класс по скальпингу!</p>
+            <p>Трейдер или инвестор - это человек, который торгует на бирже ценными бумагами, долговыми обязательствами, валютой, производными инструментами и т.д. Это тот кто умеет зарабатывать на росте или падении экономики.</p>
+            <p>Так вот, если вы давно хотели познакомится с темой инвестирования, но что-то вас останавливало. Возможно недостаток информации, сомнения получится ли именно у Вас, боязнь потерять деньги, слить депозит, т.к рядом нет наставника который в трудную минуту сможет помочь. Я хочу сообщить вам две вещи )))</p>
+          </div>
+          <div class="img-4 d-none d-sm-block"></div>
+        </div>
+        <div class="col-lg-7">
+          <div class="photo2"></div>
+          <div class="text">
+            <p>Друзья, всем кому интересна тема инвестирования, торговли на бирже. Кто хочет познакомится с новой очень интересной и доходной профессией трейдера приглашаю на мой авторский  мастер-класс по скальпингу!</p>
+            <p>Трейдер или инвестор - это человек, который торгует на бирже ценными бумагами, долговыми обязательствами, валютой, производными инструментами и т.д. Это тот кто умеет зарабатывать на росте или падении экономики.</p>
+            <p>Так вот, если вы давно хотели познакомится с темой инвестирования, но что-то вас останавливало. Возможно недостаток информации, сомнения получится ли именно у Вас, боязнь потерять деньги, слить депозит, т.к рядом нет наставника который в трудную минуту сможет помочь. Я хочу сообщить вам две вещи )))</p>
+          </div>
+          <a href=#>До встречи на тренинге!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div id='sectionForm'>
+    <div class="container center">
+      <h3>Зарегистрируйтесь на вебинар прямо сейчас!</h3>
+      <div class="row forms">
+        <div class="col-lg-4"><input type="email" name="email" value="" placeholder='Введите ваш email' id="myTextField"></div>
+        <div class="col-lg-4"><input type="name" name="name" value=""placeholder='Введите ваше имя'></div>
+        <div class="col-lg-4"><input type="tel" name="+" value=""placeholder='Введите ваш телефон'></div>
+              <button type="button" name="button">Зарегистрироваться</button>
+      </div>
+      <p>Регистрируюясь вы соглашаетесь с <a href="#">уловиями обработки данных</a></p>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© ИП Калинина Дарья Сергеевна</p>
+      <p>ОГРНИП 319631300054051</p>
+      <a href="">info@finansistcb.ru</a>
+      <div class="btns row-btn">
+        <a href='' class="btn social-vk"></a>
+        <a href='' class="btn social-tel"></a>
+        <a href='' class="btn social-fb"></a>
+      </div>
+
+      <div class="container">
+
+      <div class="row">
+
+      <div class="row left col-lg-8 col-xs-12 ">
+        <a href="#">Оферта</a>
+        <a href="#">Положение об обработке персональных данных</a>
+        <a href="#">Согласение на обработку  персональных данных</a>
+      </div>
+
+      <div class="right col-lg-4">
+        <div class="payment"></div>
+      </div>
+          </div>
+      </div>
+
+
+
+    </div>
+  </footer>
+
+
+
+
 
     <!--js-->
     <script src="js/jquery.js"></script>
     <script src="js/main.js"></script>
+</body>
 
-  </head>
-  <body>
 
-  </body>
+
+
 </html>
